@@ -7,3 +7,5 @@ kafka-topics --list --zookeeper master:2181
 kafka-create-topic.sh --topic foo --replica 3 --zookeeper master:2181 --partition 5
 
 mvn clean compile assembly:single
+
+java -jar target/ClouderaCDHKafka.jar
