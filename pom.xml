@@ -19,7 +19,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>com.ztrew.kafka.driver.DriverJava</mainClass>
+							<mainClass>com.ztrew.kafka.driver.Driver</mainClass>
 						</manifest>
 					</archive>
 					<appendAssemblyId>false</appendAssemblyId>
