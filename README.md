@@ -55,5 +55,11 @@ sys	0m3.180s
 ```
 
 ```
-for j in 1 2 3 4 5 6 7 8 9 10; do for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16; do java -jar ClouderaCDHKafka.jar 1000000 > /dev/null 2>&1 & done; done
+for j in 1 2 3 4 5 6 7 8 9 10
+do 
+  for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+  do 
+    java -jar ClouderaCDHKafka.jar 1000000 > /dev/null 2>&1 & 
+  done
+done
 ```
