@@ -13,3 +13,14 @@ kafka-topics --zookeeper master:2181 --describe --topic foo
 mvn clean compile assembly:single
 
 java -jar target/ClouderaCDHKafka.jar
+
+```
+bin/kafka-console-producer.sh --zookeeper localhost:2181 --topic test 
+This is a message
+This is another message
+```
+```
+> bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test --from-beginning
+This is a message
+This is another message
+```
