@@ -24,3 +24,32 @@ This is another message
 This is a message
 This is another message
 ```
+
+```
+time java -jar ClouderaCDHKafka.jar 100 >/dev/null 
+
+real	0m1.373s
+user	0m1.397s
+sys	0m0.082s
+```
+```
+time java -jar ClouderaCDHKafka.jar 1000 >/dev/null 
+
+real	0m4.340s
+user	0m3.875s
+sys	0m0.173s
+```
+```
+time java -jar ClouderaCDHKafka.jar 10000 >/dev/null 
+
+real	0m17.640s
+user	0m10.422s
+sys	0m0.536s
+```
+```
+time java -jar ClouderaCDHKafka.jar 100000 >/dev/null 
+
+real	1m13.582s
+user	0m29.265s
+sys	0m3.180s
+```
