@@ -63,3 +63,7 @@ do
   done
 done
 ```
+
+![](https://github.com/thewertzgroup/Cloudera-CDH-Kafka/blob/master/images/KafkaLoad-0a.png)
+
+![](https://github.com/thewertzgroup/Cloudera-CDH-Kafka/blob/master/images/KafkaLoad-0b.png)
