@@ -2,7 +2,7 @@
 
 https://cwiki.apache.org/confluence/display/KAFKA/0.8.0+Producer+Example
 
-PATH=$PATH:$HOME/bin:/opt/cloudera/parcels/KAFKA-2.0.1-1.2.0.1.p0.5/lib/kafka/bin
+PATH=$PATH:$HOME/bin:/opt/cloudera/parcels/CDH/lib/zookeeper/bin/:/opt/cloudera/parcels/KAFKA/lib/kafka/bin/
 
 kafka-topics --list --zookeeper master:2181
 
